@@ -1,0 +1,41 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+/* fonts */
+@font-face {
+  font-family: roobertSemiBold;
+  src: url(fonts\Roobert-SemiBold.otf);
+}
+
+@font-face {
+  font-family: roobertBold;
+  src: url(fonts\Roobert-Bold.otf);
+}
+
+@font-face {
+  font-family: roobert;
+  src: url(fonts\Roobert-Regular.otf);
+}
+
+/* Body style */
+h1.text-lead {
+  font: 44px roobertSemiBold;
+}
+
+p.body {
+  font: 18px roobert;
+}
+
+body {background-color: #F6F6F0;}
+
+button.pill-orange-dark {
+  background-color: #EB7330;
+  font: 18px roobertSemiBold;
+}
+
+img.fade {
+  opacity: 0.5;
+}
