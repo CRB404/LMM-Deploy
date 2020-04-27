@@ -29,6 +29,24 @@ p.body {
   font: 18px roobert;
 }
 
+p.footer {
+  font: 18px roobert;
+  color: #fff;
+}
+
+p.legal {
+  font: 12px roobert;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #FFCD19;
+}
+
+a.footer-link {
+  text-decoration: underline;
+}
+
 body {background-color: #F6F6F0;}
 
 button.pill-orange-dark {
@@ -39,3 +57,9 @@ button.pill-orange-dark {
 img.fade {
   opacity: 0.5;
 }
+
+img.faint {
+  opacity: 0.1;
+}
+
+footer.footer-color {background-color: #22566A;}

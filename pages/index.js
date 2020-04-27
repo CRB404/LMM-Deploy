@@ -15,17 +15,6 @@ export default function Index({ preview, allPosts }) {
       <Layout preview={preview}>
         <Container>
           <Intro />
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverimage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost._meta.uid}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
     </>

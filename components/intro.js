@@ -12,18 +12,18 @@ export default function Intro() {
   }
 
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mb-16 md:mb-12">
+    <section className="flex-col md:flex-row flex items-center md:justify-between">
 
       <div>
-        <img src={logo} className="mb-32"/>
+        <img src={logo} className="mb-32 mt-10"/>
         <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8 text-lead">
         We are a global collaborative network focused on connecting underserved communities to the digital economy.
         </h1>
         <button onClick={emailClick} class="pill-orange-dark hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-full my-20">
           Get in touch
         </button>
-        <p className="body mb-8">A program by</p>
-        <div className="flex flex-wrap">
+        <p className="body mb-10">A program by</p>
+        <div className="flex flex-wrap mb-8">
           <img src={colab} className="fade"/>
           <img src={gates} className="fade py-1 ml-8"/>
         </div>
